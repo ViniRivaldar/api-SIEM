@@ -220,5 +220,5 @@ app.get('/api/stats/timeline', async (req, res) => {
 const PORT = process.env.PORT
 
 app.listen(PORT, () => {
-  console.log('🚀 SIEM API rodando na porta ${PORT}');
+  console.log(`🚀 SIEM API rodando na porta ${PORT}`);
 });
